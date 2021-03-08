@@ -61,7 +61,6 @@ fn main() {
                 let mut tmp_start = 0;
                 let mut start_statistics_empty = false;
                 let buf_clone = buf.clone();
-//<unnamed>' panicked at 'index 1 out of range for slice of length 0this window start[97383,300],[0]^
                 println!(
                     "this window start[{},{}],index={}",
                     thread_start_clone,
